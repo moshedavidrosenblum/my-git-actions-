@@ -9,7 +9,10 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-
+        
+      - name: Run sample command
+        run: echo hello moshe && pwd
+        
       - name: Run Super-Linter
         uses: github/super-linter@v3.17.0
 
