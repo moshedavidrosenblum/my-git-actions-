@@ -1,7 +1,12 @@
 def sayHay():
-         print("hello moshe")
+
+    print("hello moshe")
+
+
 def sayBay():
-  print("godBay moshe")
+
+    print("godBay moshe")
+
 
 sayBay()
 sayHay()
